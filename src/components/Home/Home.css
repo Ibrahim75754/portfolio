@@ -32,3 +32,10 @@
 .fab:hover{
     color:  #c01717;
 }
+.fas{
+    border: 1px solid #5817c0;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #5817c0;
+}

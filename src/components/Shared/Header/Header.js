@@ -15,13 +15,16 @@ const Header = () => {
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                                <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills</a>
+                                <a class="nav-link" href="#skills">My Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
