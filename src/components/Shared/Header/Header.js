@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Header = () => {
+    const activeStyle = {
+        color: "#5817c0",
+    }
     return (
         <div className="mb-5 sticky-top">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark box-shadow">
@@ -12,19 +15,19 @@ const Header = () => {
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                <a class="nav-link" activeStyle={activeStyle} aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
+                                <a class="nav-link" activeStyle={activeStyle} aria-current="page" href="#aboutMe">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#skills">My Skills</a>
+                                <a class="nav-link" activeStyle={activeStyle} href="#skills">My Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#projects">Projects</a>
+                                <a class="nav-link" activeStyle={activeStyle} href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
+                                <a class="nav-link" activeStyle={activeStyle} href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
