@@ -10,7 +10,7 @@ import ContactMe from './ContactMe/ContactMe';
 
 const Home = () => {
     return (
-        <div style={{ backgroundColor: "#212529", color: "white" }}>
+        <div>
             <Header></Header>
             <Banner></Banner>
             <AboutMe></AboutMe>

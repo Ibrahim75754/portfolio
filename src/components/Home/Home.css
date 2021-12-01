@@ -6,13 +6,28 @@
     font-size: 50px;
     color: #5817c0;
 }
+.primary-color{
+    color: #c01717;
+}
 .btn-color{
     background-color: #c01717;
-    padding: 10px 50px;
+    padding: 8px 30px;
     color: white;
+    border-radius: 25px;
 }
 .btn-color:hover{
     background-color: #5817c0;
+    color: white;
+    box-shadow: 1px 1px 15px rgb(68, 64, 64);
+}
+.btn-color2{
+    background-color: #5817c0;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 25px;
+}
+.btn-color2:hover{
+    background-color: #c01717;
     color: white;
     box-shadow: 1px 1px 15px rgb(68, 64, 64);
 }
@@ -38,4 +53,8 @@
     font-size: 20px;
     padding: 10px;
     background-color: #5817c0;
+}
+
+.skill-icon{
+    font-size: 100px;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import photo from '../../../img/skill.png';
 
 const MySkill = () => {
     return (
@@ -8,15 +7,24 @@ const MySkill = () => {
             <p className="p-color text-center">I have 2 years of good experience and have a clear idea of HTML5, CSS3, JAVASCRIPT, React Js. In the web design part, I have the skills to design any kind of website. My design must be responsive in all devices, pixel perfect, w3c valid code, clean coding, SEO friendly, and cross-browser compatible.</p>
             <div className="row">
                 <div className="col-md-6">
-                    <img className="" src={photo} alt="" />
+                    <h5>Front end :</h5>
+                    <div className="d-flex justify-content-between text-center">
+                        <div>
+                            <i class="fab fa-bootstrap skill-icon"></i><br /><span>React Bootstrap</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-react skill-icon"></i><br /><span>React JS</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-js skill-icon"></i><br /><span>Javascript</span>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-6 mt-5">
 
-
-
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
